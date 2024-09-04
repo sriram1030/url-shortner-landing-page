@@ -17,6 +17,9 @@
 -HTML5
 -CSS3
 
+**Demo Video**
+https://github.com/sriram1030/url-shortner-landing-page/blob/main/Shortie.mp4
+
 **Assests**
 
 -Images used from Bitly for learning puroses only and should not be used for commercial purposes.
