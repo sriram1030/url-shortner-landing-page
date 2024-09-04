@@ -1,0 +1,430 @@
+body{
+    background-color: wheat;
+    padding: 0;
+}
+
+.header-base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 34px;
+    font-family: "Permanent Marker";
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-menus ul{
+    display: flex;
+    column-gap: 60px;
+    list-style: none;
+}
+
+.nav-menus a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-family: Roboto;
+}
+
+.nav-menus a:hover{
+    color: #ff0000;
+    transition: 0.2s;
+}
+
+
+.nav-btn .login-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.nav-btn .login-btn:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.hero-section h1{
+    font-size: 60px;
+    margin-left: 140px;
+    font-family: Roboto;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.hero-section p{
+    font-size: 40px;
+    margin-left: 140px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #120909;
+}
+
+.hero-section .get-started{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 140px;
+    font-size: 16px;
+    font-family: Roboto;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.get-started:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s;
+}
+
+.hero-image{
+    max-width: 50%;
+    margin-left: 60px;
+}
+
+
+
+.url-shortner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #001339;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+.heading h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading p{
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.input-field{
+    background-color: whitesmoke;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    width: 600px;
+}
+
+.input-field h3{
+    font-family: Roboto;
+    font-size: 40px;
+    color: #000000;
+}
+
+.input-field p{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+}
+
+.bar{
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 14px;
+    width: 500px;
+    background-color: lightcyan;
+    color: #000000;
+    border: none;
+}
+
+.input-field .submit-btn{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.input-field .submit-btn:hover{
+    color: white;
+    background-color: darkslateblue;
+}
+
+.features .feature-headings h1{
+   font-family: Roboto;
+    font-size: 60px;
+    text-align: center;
+}
+
+.features .feature-headings p{
+    font-family: Roboto;
+    font-size: 22px;
+    padding-left: 200px;
+    padding-right:200px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.get-stared-btn{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    border: none;
+}
+
+.get-stared-btn:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.features-card-view{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    column-gap: 40px;
+
+
+}
+
+
+.features-card-view .card-1, .card-2, .card-3{
+    background-color: #001339;
+    border-radius: 40px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.features-card-view .card-1 h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.features-card-view .card-1 p{
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.features-card-view .card-1, .signup-btn{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    border-radius: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+
+.features-card-view .card-2 h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.features-card-view .card-2 p{
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.features-card-view .card-2, .signup-btn{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    border-radius: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+.signup-btn:hover{
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.features-card-view .card-3 h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.features-card-view .card-3 p{
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.features-card-view .card-3, .signup-btn{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    border-radius: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+
+.footer-above{
+    background-color: #060d20;
+    border-radius: 14px;
+}
+
+.footer-above .footer-above-content h1{
+    color: darkorange;
+    font-size: 48px;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 30px;
+}
+
+.footer-above .footer-above-content p{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-family: Roboto;
+    padding-right: 300px;
+    padding-left: 300px ;
+}
+
+.footer-above .footer-above-content button{
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 50px;
+    cursor: pointer;
+
+}
+
+.footer-above .footer-above-content button:hover{
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: #120909;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    row-gap: 20px;
+}
+
+footer h1{
+    color: white;
+    font-family: Roboto;
+}
+
+footer ul{
+    list-style: none;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    font-size: 16px;
+    margin-left: -30px;
+
+}
+
+footer a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+}
+
+
+footer  .get-connect{
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+footer  .get-connect:hover{
+    background-color: #001339;
+    color: white;
+}
+
+
+
